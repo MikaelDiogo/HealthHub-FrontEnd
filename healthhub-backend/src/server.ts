@@ -44,5 +44,5 @@ app.post('/login', (req: Request, res: Response) => {
 const PORT = 3001;
 app.listen(PORT, () => {
     console.log(`🚀 Servidor rodando em http://localhost:${PORT}`);
-    console.log(`💡 Pressione CTRL + C para parar o servidor`);
+    
 });
